@@ -24,3 +24,4 @@ When('I click {string} button', async ({ page }, buttonName: string) => {
 Then('I should be able to see {string} page', async ({ page }, pageName: string) => {
   await expect(page.locator("[data-test='title']")).toHaveText(pageName);
 });
+// use this website for api testing practice https://restful-booker.herokuapp.com/apidoc/index.html
