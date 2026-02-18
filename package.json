@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "bdd:gen": "bddgen",
-    "test": "playwright test",
-    "bdd": "npm run bdd:gen && npm run test",
-    "playwright:runner": "npm run bdd:gen && playwright test --ui"
+  "playwright:runner": "npm run bdd:gen && playwright test --ui"
   },
   "keywords": [],
   "author": "",

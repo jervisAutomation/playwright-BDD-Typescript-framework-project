@@ -1,7 +1,5 @@
-import { createBdd } from 'playwright-bdd';
+import { Given, When, Then } from './bdd';
 import { expect } from '@playwright/test';
-
-const { Given, When, Then } = createBdd();
 
 Given('I navigate to saucedemo', async ({ page }) => {
   await page.goto("https://www.saucedemo.com/");
