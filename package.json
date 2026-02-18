@@ -1,0 +1,21 @@
+{
+  "name": "playwright-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bdd:gen": "bddgen",
+    "test": "playwright test",
+    "bdd": "npm run bdd:gen && npm run test",
+    "playwright:runner": "npm run bdd:gen && playwright test --ui"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.2.2",
+    "playwright-bdd": "^8.4.2",
+    "ts-node": "^10.9.2"
+  }
+}
