@@ -1,4 +1,4 @@
-// Generated from: e2e\features\login.feature
+// Generated from: e2e\ui\features\login.feature
 import { test } from "playwright-bdd";
 
 test.describe('SauceDemo login', () => {
@@ -17,7 +17,7 @@ test.describe('SauceDemo login', () => {
 
 test.use({
   $test: [({}, use) => use(test), { scope: 'test', box: true }],
-  $uri: [({}, use) => use('e2e\\features\\login.feature'), { scope: 'test', box: true }],
+  $uri: [({}, use) => use('e2e\\ui\\features\\login.feature'), { scope: 'test', box: true }],
   $bddFileData: [({}, use) => use(bddFileData), { scope: "test", box: true }],
 });
 

@@ -1,4 +1,4 @@
-import { Given, When, Then } from './bdd';
+import { Given, When, Then } from '../../../support/bdd';
 import { expect } from '@playwright/test';
 
 Given('I navigate to saucedemo', async ({ page }) => {

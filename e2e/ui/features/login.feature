@@ -1,3 +1,4 @@
+@ui
 Feature: SauceDemo login
 
   Scenario: login
