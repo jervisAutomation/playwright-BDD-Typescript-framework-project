@@ -1,0 +1,8 @@
+{
+  "cucumberautocomplete.steps": [
+    "e2e/api/steps/**.steps.ts",
+    "e2e/ui/steps/**.steps.ts"
+  ],
+  "cucumberautocomplete.syncfeatures": "e2e/**/features/**.feature",
+  "cucumberautocomplete.strictGherkinCompletion": true
+}
